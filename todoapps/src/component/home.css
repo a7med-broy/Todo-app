@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tasks-container {
+  padding-top: 20px;
+  width: 60vw;
+  margin: auto;
+}
+
+.tasks-container .add-task {
+  border: 2px solid #eee;
+  padding: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tasks-container .add-task input {
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.tasks-container .add-task input[type="text"] {
+  margin-bottom: 10px;
+  border: 2px solid #eee;
+}
+
+.tasks-container .add-task input[type="text"]:focus {
+  outline: none;
+}
+
+.tasks-container .add-task input[type="submit"] {
+  border: none;
+}
+
+.tasks-container .list h2 {
+  padding: 20px;
+}
+
+.tasks-container .list .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tasks-container .list .btns button {
+  border-radius: 10px;
+  width: 30%;
+}
+
+.tasks-container .tasks {
+  padding-top: 30px;
+}
+
+.tasks-container .tasks .task {
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.tasks-container .tasks .task p {
+  margin-bottom: 0;
+}
+
+.tasks-container .tasks .task .icons .i {
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-transition: background .5s;
+  transition: background .5s;
+  cursor: pointer;
+}
+
+.tasks-container .tasks .task .icons .i:hover {
+  background: rgba(219, 218, 218, 0.276);
+}
+
+.tasks-container .btn-del {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tasks-container .btn-del button {
+  width: 48%;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=home.css.map */
